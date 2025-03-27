@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jmdje\\source\\repos\\ProjetoLead\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C08174-1565-4168-BE29-1B1621157141}|ProjetoLead\\ProjetoLead.csproj|c:\\users\\jmdje\\source\\repos\\projetolead\\projetolead\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C08174-1565-4168-BE29-1B1621157141}|ProjetoLead\\ProjetoLead.csproj|solutionrelative:projetolead\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C08174-1565-4168-BE29-1B1621157141}|ProjetoLead\\ProjetoLead.csproj|c:\\users\\jmdje\\source\\repos\\projetolead\\projetolead\\components\\pages\\add.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C08174-1565-4168-BE29-1B1621157141}|ProjetoLead\\ProjetoLead.csproj|solutionrelative:projetolead\\components\\pages\\add.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C08174-1565-4168-BE29-1B1621157141}|ProjetoLead\\ProjetoLead.csproj|c:\\users\\jmdje\\source\\repos\\projetolead\\projetolead\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8C08174-1565-4168-BE29-1B1621157141}|ProjetoLead\\ProjetoLead.csproj|solutionrelative:projetolead\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C08174-1565-4168-BE29-1B1621157141}|ProjetoLead\\ProjetoLead.csproj|c:\\users\\jmdje\\source\\repos\\projetolead\\projetolead\\projetolead.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8C08174-1565-4168-BE29-1B1621157141}|ProjetoLead\\ProjetoLead.csproj|solutionrelative:projetolead\\projetolead.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 318,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.razor",
+              "DocumentMoniker": "C:\\Users\\jmdje\\source\\repos\\ProjetoLead\\ProjetoLead\\Components\\Pages\\Add.razor",
+              "RelativeDocumentMoniker": "ProjetoLead\\Components\\Pages\\Add.razor",
+              "ToolTip": "C:\\Users\\jmdje\\source\\repos\\ProjetoLead\\ProjetoLead\\Components\\Pages\\Add.razor",
+              "RelativeToolTip": "ProjetoLead\\Components\\Pages\\Add.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T19:49:20.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\jmdje\\source\\repos\\ProjetoLead\\ProjetoLead\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ProjetoLead\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\jmdje\\source\\repos\\ProjetoLead\\ProjetoLead\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ProjetoLead\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T19:42:12.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\jmdje\\source\\repos\\ProjetoLead\\ProjetoLead\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "ProjetoLead\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\jmdje\\source\\repos\\ProjetoLead\\ProjetoLead\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "ProjetoLead\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T19:29:32.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjetoLead.csproj",
+              "DocumentMoniker": "C:\\Users\\jmdje\\source\\repos\\ProjetoLead\\ProjetoLead\\ProjetoLead.csproj",
+              "RelativeDocumentMoniker": "ProjetoLead\\ProjetoLead.csproj",
+              "ToolTip": "C:\\Users\\jmdje\\source\\repos\\ProjetoLead\\ProjetoLead\\ProjetoLead.csproj",
+              "RelativeToolTip": "ProjetoLead\\ProjetoLead.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-27T19:27:13.132Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

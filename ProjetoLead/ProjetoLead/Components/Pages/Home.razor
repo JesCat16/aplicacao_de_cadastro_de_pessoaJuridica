@@ -1,0 +1,45 @@
+﻿@using MudBlazor
+@using ProjetoLead.Objetos
+@page "/"
+@inject HttpClient HttpClient
+
+<PageTitle>Home</PageTitle>
+
+<h1>Index!</h1>
+
+<MudSimpleTable Style="overflow-x: auto;">
+	<thead>
+		<tr>
+			@foreach (var h in headings)
+			{
+				<th>@h</th>
+			}
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (GetAllLeadsDTO leads in LeadList)
+		{
+			<tr>
+				<td>@leads.cnpj</td>
+				<td>@leads.razao_social</td>
+				<td>@leads.cep</td>
+				<td>@leads.estado</td>
+			</tr>
+		}
+	</tbody>
+</MudSimpleTable>
+<MudButton Variant="Variant.Filled" OnClick="irParaCriar">Adicionar Lead</MudButton>
+@code{
+	List<GetAllLeadsDTO> LeadList = [];
+	string[] headings = { "CNPJ", "Razão Social", "CEP", "Estado" };
+	private NavigationManager navigationManager;
+	protected override async Task OnInitializedAsync()
+	{
+		LeadList = await HttpClient.GetFromJsonAsync<List<GetAllLeadsDTO>>("api/Lead");
+	}
+
+	void irParaCriar()
+	{
+		navigationManager.NavigateTo("/criar");
+	}
+}
