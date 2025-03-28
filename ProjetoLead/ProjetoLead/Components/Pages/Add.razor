@@ -1,7 +1,29 @@
 ﻿@page "/criar"
 
-<h3>Add</h3>
+<PageTitle>Adicionar Lead</PageTitle>
+
+<h1>Adicionar Lead</h1>
+<h3>Status: @Status</h3>
+
+<EditForm Model="@createModel" OnSubmit=@FormSubmitted>
+	<DataAnnotationsValidator/>
+	<div class="form-row">
+		<div class="form-group col-md-6">
+			<label class="col-form-label">CNPJ</label>
+			<SfTextBox @Value="@createModel.cnpj"></SfTextBox>
+			<ValidationMessage For="@(() => createModel.cnpj)" ></ValidationMessage>
+		</div>
+	</div>
+	<input type="submit" value="Submit" class="btn btn-primary"/>
+</EditForm>
 
 @code {
+	string Status = "Não Adicionado";
+	CreateModel createModel = new CreateModel();
 
+	void FormSubmitted()
+	{
+		
+	}
 }
+  
