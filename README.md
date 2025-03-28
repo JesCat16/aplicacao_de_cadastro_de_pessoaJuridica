@@ -1,1 +1,1 @@
-# Aplicacao para cadastro de Pessoa Jurídica
+# Aplicação para cadastro de Pessoa Jurídica
