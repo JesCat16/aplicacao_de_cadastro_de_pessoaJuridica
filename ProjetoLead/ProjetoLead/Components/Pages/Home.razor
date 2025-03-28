@@ -1,13 +1,14 @@
 ﻿@using MudBlazor
 @using ProjetoLead.Objetos
 @page "/"
+@attribute [StreamRendering(true)]
 @inject HttpClient HttpClient
 
 <PageTitle>Home</PageTitle>
 
 <h1>Index!</h1>
 
-<MudSimpleTable Style="overflow-x: auto;">
+<table class="table">
 	<thead>
 		<tr>
 			@foreach (var h in headings)
@@ -27,8 +28,8 @@
 			</tr>
 		}
 	</tbody>
-</MudSimpleTable>
-<MudButton Variant="Variant.Filled" OnClick="irParaCriar">Adicionar Lead</MudButton>
+</table>
+<MudButton Variant="Variant.Filled" @onclick="irParaCriar">Adicionar Lead</MudButton>
 @code{
 	List<GetAllLeadsDTO> LeadList = [];
 	string[] headings = { "CNPJ", "Razão Social", "CEP", "Estado" };
@@ -40,6 +41,6 @@
 
 	void irParaCriar()
 	{
-		navigationManager.NavigateTo("/criar");
+		navigationManager.NavigateTo("/criar", false);
 	}
 }
