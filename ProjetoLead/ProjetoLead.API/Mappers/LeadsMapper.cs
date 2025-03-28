@@ -10,6 +10,7 @@ namespace ProjetoLead.API.Mappers
         {
             return new GetAllLeadsDTO
             {
+                id = cadastroModel.Id,
                 cnpj = cadastroModel.cnpj,
                 razao_social = cadastroModel.razao_social,
                 cep = cadastroModel.cep,

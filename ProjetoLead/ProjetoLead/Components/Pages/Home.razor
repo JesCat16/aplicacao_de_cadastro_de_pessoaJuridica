@@ -1,8 +1,10 @@
 ﻿@using MudBlazor
 @using ProjetoLead.Objetos
 @page "/"
+@rendermode InteractiveServer
 @attribute [StreamRendering(true)]
 @inject HttpClient HttpClient
+
 
 <PageTitle>Home</PageTitle>
 
@@ -33,7 +35,6 @@
 @code{
 	List<GetAllLeadsDTO> LeadList = [];
 	string[] headings = { "CNPJ", "Razão Social", "CEP", "Estado" };
-	private NavigationManager navigationManager;
 	protected override async Task OnInitializedAsync()
 	{
 		LeadList = await HttpClient.GetFromJsonAsync<List<GetAllLeadsDTO>>("api/Lead");
